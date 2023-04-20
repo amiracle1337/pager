@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.phone-container {
+    font-size: 18px;
+    height: 580px;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.phone-content {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.input-field {
+    background-color: rgb(81, 81, 81);
+    width: 380px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    box-shadow: inset 0px 0px 5px 1px rgb(0, 0, 0);
+}
+
+img {
+    margin-top: 21px;
+    width: 30px;
+    height: 30px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.key-pad {
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.numeric {
+    font-size: 23px;
+    width: 120px;
+    height: 60px;
+    border: solid 1px rgb(156, 156, 156);
+    box-shadow:  0px 0px 4px 1px rgb(113, 113, 113);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .reset, .send {
+    width: 380px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    border: solid 1px rgb(98, 98, 98);
+  }
+
+  .reset {
+    background-color: rgb(227, 53, 53);
+    box-shadow:  1px 1px 5px 0px rgb(0, 0, 0);
+  }
+
+  .send {
+    background-color: rgb(48, 136, 48);
+    box-shadow:  1px 1px 5px 0px rgb(0, 0, 0);
+  }
+
+  .reset:hover, .send:hover {
+    width: 384px;
+  }
+
+  .numeric:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.pager-container {
+    height: 130px;
+    width: 400px;
+    background-color: rgb(81, 81, 81);
+    margin: 20px 0 40px 0;
+}
+
+.pager-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.pager-field {
+    background-color: rgb(151, 198, 193);
+    height: 60px;
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: inset 0px 0px 2px 1px black;
+}
+
+.pager-call {
+    font-size: 50px;
+
+}
